@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+$font-stack: 'Arvo', serif; 
+$header-font-color: white; 
+$header-components-space: 20px 0 20px 20px;
+
+* {
+    margin: 0 0 0 0;
+    font-family: $font-stack;
+}
+
+header {
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    p {
+        margin: $header-components-space;
+        color: $header-font-color;
+        font-size: 40px;
+    }
+
+    nav {
+        align-self: flex-end;
+        margin: 0 0 42px 20px;
+        width: 25%;
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            text-decoration: none;
+            color: $header-font-color;
+            margin-right: 20px;
+        }
+
+        a:hover {
+            border-bottom: 1px solid orange;
+        }
+
+    }
+
+}
+
+main {
+    height: 100%;
+}
+
+footer {
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40%;
+
+    img {
+        width: 20px;
+        height: 20px;
+        opacity: 0.5;
+        margin-left: 13px;
+    }
+
+    .mail { 
+        margin-top: 10px;
+        color: $header-font-color;
+        opacity: 0.8;
+    }
+
+}
