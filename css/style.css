@@ -19,15 +19,15 @@ header p {
 header nav {
   align-self: flex-end;
   margin: 0 0 42px 20px;
-  width: 30%;
+  width: 40%;
   display: flex;
   justify-content: space-between;
 }
 header nav a {
   text-decoration: none;
+  text-align: center;
   color: white;
-  margin-right: 10px;
-  width: 50px;
+  width: 100%;
 }
 header nav a:hover {
   border-bottom: 1px solid orange;
@@ -35,15 +35,22 @@ header nav a:hover {
 
 main .welcome {
   position: relative;
-  color: white;
 }
 main .welcome img {
   width: 100%;
 }
 main .welcome div {
+  display: block;
   position: absolute;
-  right: 16px;
+  width: 50%;
+  height: 100%;
+  top: 0.1px;
+  right: 0.1px;
   background-color: #fff;
+  opacity: 0.8;
+}
+main .welcome p {
+  opacity: 1;
 }
 
 footer {
