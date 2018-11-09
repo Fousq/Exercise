@@ -25,14 +25,15 @@ header {
     nav {
         align-self: flex-end;
         margin: 0 0 42px 20px;
-        width: 25%;
+        width: 30%;
         display: flex;
         justify-content: space-between;
 
         a {
             text-decoration: none;
             color: $header-font-color;
-            margin-right: 20px;
+            margin-right: 10px;
+            width: 50px;
         }
 
         a:hover {
@@ -44,7 +45,22 @@ header {
 }
 
 main {
-    height: 100%;
+    .welcome {
+        position: relative;
+        text-align: center;
+        color: white;
+
+        img{
+            width: 100%;
+        }
+
+        div {
+            position: absolute;
+            right: 16px;
+            background-color: #fff;
+        }
+
+    }
 }
 
 footer {

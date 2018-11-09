@@ -19,21 +19,31 @@ header p {
 header nav {
   align-self: flex-end;
   margin: 0 0 42px 20px;
-  width: 25%;
+  width: 30%;
   display: flex;
   justify-content: space-between;
 }
 header nav a {
   text-decoration: none;
   color: white;
-  margin-right: 20px;
+  margin-right: 10px;
+  width: 50px;
 }
 header nav a:hover {
   border-bottom: 1px solid orange;
 }
 
-main {
-  height: 100%;
+main .welcome {
+  position: relative;
+  color: white;
+}
+main .welcome img {
+  width: 100%;
+}
+main .welcome div {
+  position: absolute;
+  right: 16px;
+  background-color: #fff;
 }
 
 footer {
