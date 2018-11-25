@@ -75,13 +75,48 @@
 
 #projectsMain {
   background-color: #66c2ff;
+  height: 1000px;
 }
 #projectsMain #h1 {
   font-weight: 350px;
   font-size: 50px;
   text-align: center;
   color: black;
-  padding: 30px 0 30px 0;
+  padding: 15% 0 30px 0;
+}
+#projectsMain .col {
+  background-color: #fff;
+  margin: 0 10px 10px 0;
+}
+#projectsMain .col a {
+  text-decoration: none;
+  color: #000;
+  font-size: 50px;
+}
+#projectsMain .col a:hover {
+  border-bottom: 1px solid #ff6600;
+}
+
+#aboutmeMain {
+  height: 1000px;
+  background-color: #ff3333;
+  padding: 200px 0 0 100px;
+}
+#aboutmeMain .container {
+  height: 70%;
+  width: 93%;
+  background-color: #fff;
+}
+#aboutmeMain .container p {
+  padding: 50px 0 0 30px;
+  font-size: 30px;
+}
+#aboutmeMain .container ol {
+  margin: 20px 0 0 15px;
+  font-size: 30px;
+}
+#aboutmeMain .container ol li {
+  margin: 0 0 30px 0;
 }
 
 #footer {
