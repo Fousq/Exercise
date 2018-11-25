@@ -43,13 +43,24 @@ main .welcome div {
   display: block;
   position: absolute;
   width: 50%;
-  height: 100%;
-  top: 0.1px;
-  right: 0.1px;
+  height: 70%;
+  top: 10%;
+  right: 50px;
   background-color: #fff;
   opacity: 0.8;
+  padding-left: 20px;
+}
+main .welcome h3 {
+  margin-top: 15px;
 }
 main .welcome p {
+  margin-top: 20px;
+}
+main .welcome div:hover {
+  width: 52%;
+  height: 72%;
+  top: 8%;
+  right: 30px;
   opacity: 1;
 }
 
