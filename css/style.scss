@@ -24,7 +24,7 @@ $header-components-space: 20px 0 20px 20px;
 
     #nav {
         align-self: flex-end;
-        margin: 0 0 42px 20px;
+        margin: 0 50px 42px 20px;
         width: 40%;
         display: flex;
         justify-content: space-between;
@@ -33,7 +33,7 @@ $header-components-space: 20px 0 20px 20px;
             text-decoration: none;
             text-align: center;
             color: $header-font-color;
-            width: 100%;
+            
         }
 
         a:hover {
@@ -148,6 +148,55 @@ $header-components-space: 20px 0 20px 20px;
 
         }
 
+    }
+
+}
+
+#contactMe {
+    height: 1000px;
+    background-color: #66ff66;
+    padding: 200px 0 0 100px;
+
+    .container {
+        height: 70%;
+        width: 93%;
+        background-color: #fff;
+    }
+
+    form {
+        height: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 55px 0 0 80px;
+    }
+
+    .contact {
+        input {
+            width: 40%;
+            margin-left: 20px;
+            font-size: 15px;
+        }
+    }
+
+    .text {
+        margin-top: 10px;
+        p {
+            margin-bottom: 10px;
+        }
+
+        textarea {
+            font-size: 20px;
+        }
+    }
+
+    button {
+        width: 150px;
+        height: 50px;
+        background-color: #66d9ff;
+        border: none;
+        margin-left: 920px;
+        font-size: 18px;
     }
 
 }
