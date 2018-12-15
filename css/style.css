@@ -147,6 +147,7 @@
   margin-bottom: 10px;
 }
 #contactMe .text textarea {
+  width: 95%;
   font-size: 20px;
 }
 #contactMe button {
@@ -154,8 +155,11 @@
   height: 50px;
   background-color: #66d9ff;
   border: none;
-  margin-left: 920px;
+  margin-left: 86%;
   font-size: 18px;
+}
+#contactMe button:hover {
+  background-color: #ff3333;
 }
 
 #footer {
@@ -176,6 +180,17 @@
   margin-top: 10px;
   color: white;
   opacity: 0.8;
+}
+
+@media only screen and (max-width: 1600px) {
+  #contactMe button {
+    margin-left: 75%;
+  }
+}
+@media only screen and (max-width: 850px) {
+  #contactMe button {
+    margin-left: 70%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

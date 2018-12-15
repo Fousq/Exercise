@@ -181,11 +181,13 @@ $header-components-space: 20px 0 20px 20px;
 
     .text {
         margin-top: 10px;
+
         p {
             margin-bottom: 10px;
         }
 
         textarea {
+            width: 95%;
             font-size: 20px;
         }
     }
@@ -195,8 +197,12 @@ $header-components-space: 20px 0 20px 20px;
         height: 50px;
         background-color: #66d9ff;
         border: none;
-        margin-left: 920px;
+        margin-left: 86%;
         font-size: 18px;
+    }
+
+    button:hover {
+        background-color: #ff3333;
     }
 
 }
@@ -222,4 +228,16 @@ $header-components-space: 20px 0 20px 20px;
         opacity: 0.8;
     }
 
+}
+
+@media only screen and (max-width:  1600px) {
+    #contactMe button {
+        margin-left: 75%;
+    }
+}
+
+@media only screen and (max-width:  850px) {
+    #contactMe button {
+        margin-left: 70%;
+    }
 }
